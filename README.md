@@ -97,8 +97,8 @@ The tool generates a `download_manifest.json` file containing:
 Clone or download the project, open a terminal in the project directory, and install the dependencies:
 
 ```bash
-git clone https://github.com/rafaeldrrmachado/citybike-historical-data-export.git
-cd citybike-historical-data-export
+git clone https://github.com/rafaeldrrmachado/citybikes-historical-data-export.git
+cd citybikes-historical-data-export
 ```
 
 ```bash
@@ -124,7 +124,7 @@ python citybikes_historical_downloader_tui.py --output "D:\Data\CityBikes"
 On a trusted network where SSL inspection causes certificate validation errors:
 
 ```bash
-python citybikes_historical_downloader_tui.py --insecure
+python citybikes_historical_downloader.py --insecure
 ```
 
 > [!WARNING]
@@ -139,7 +139,7 @@ python citybikes_historical_downloader_tui.py --overwrite
 ### Combine options
 
 ```bash
-python citybikes_historical_downloader_tui.py --output "D:\Data\CityBikes" --insecure --overwrite
+python citybikes_historical_downloader.py --output "D:\Data\CityBikes" --insecure --overwrite
 ```
 
 ## Network Selection Controls
@@ -216,7 +216,7 @@ The downloader uses the following CityBikes endpoints:
 If the network uses SSL inspection, either install the organization's trusted root certificate or run the script with `--insecure` on a trusted network:
 
 ```bash
-python citybikes_historical_downloader_tui.py --insecure
+python citybikes_historical_downloader.py --insecure
 ```
 
 ### `InquirerPy` is missing
