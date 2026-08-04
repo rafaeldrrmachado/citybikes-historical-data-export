@@ -12,6 +12,8 @@ The tool allows users to:
 - Optionally merge monthly files into a single Parquet dataset.
 - Generate a download manifest for reproducibility.
 
+![assets/example.gif](assets/example.gif)
+
 ## Features
 
 ### Interactive Network Selection
