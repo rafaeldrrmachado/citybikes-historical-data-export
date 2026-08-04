@@ -1,2 +1,24 @@
-*.parquet
-*.json
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Downloaded data
+citybikes_data/
+
+# Manifest backups
+*.part
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
