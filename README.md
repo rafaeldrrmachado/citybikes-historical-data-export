@@ -97,8 +97,8 @@ The tool generates a `download_manifest.json` file containing:
 Clone or download the project, open a terminal in the project directory, and install the dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/citybikes-historical-downloader.git
-cd citybikes-historical-downloader
+git clone https://github.com/<your-username>/citybike-historical-data-export.git
+cd citybike-historical-data-export
 ```
 
 ```bash
@@ -110,7 +110,7 @@ python -m pip install -r requirements.txt
 Run the interactive downloader:
 
 ```bash
-python citybikes_historical_downloader_tui.py
+python citybikes_historical_downloader.py
 ```
 
 ### Custom output directory
