@@ -91,22 +91,18 @@ The tool generates a `download_manifest.json` file containing:
 ## Requirements
 
 - Python 3.10 or newer
-- `requests`
-- `InquirerPy`
-- `pyarrow`, required only for Parquet merging
 
 ## Installation
 
 Clone or download the project, open a terminal in the project directory, and install the dependencies:
 
 ```bash
-python -m pip install requests InquirerPy pyarrow
+git clone https://github.com/<your-username>/citybikes-historical-downloader.git
+cd citybikes-historical-downloader
 ```
 
-If you do not need the merge feature, PyArrow can be omitted:
-
 ```bash
-python -m pip install requests InquirerPy
+python -m pip install -r requirements.txt
 ```
 
 ## Usage
