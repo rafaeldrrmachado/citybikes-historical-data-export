@@ -97,7 +97,7 @@ The tool generates a `download_manifest.json` file containing:
 Clone or download the project, open a terminal in the project directory, and install the dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/citybike-historical-data-export.git
+git clone https://github.com/rafaeldrrmachado/citybike-historical-data-export.git
 cd citybike-historical-data-export
 ```
 
